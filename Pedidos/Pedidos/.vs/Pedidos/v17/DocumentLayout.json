@@ -1,10 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\melan\\DS4\\Pedidos\\Pedidos\\",
+  "WorkspaceRootPath": "C:\\Users\\Administrador\\Documents\\GitHub\\DS4\\Pedidos\\Pedidos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0EB90BCA-B413-4784-AF9B-D99E76547286}|Pedidos\\Pedidos.csproj|c:\\users\\melan\\ds4\\pedidos\\pedidos\\pedidos\\formcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0EB90BCA-B413-4784-AF9B-D99E76547286}|Pedidos\\Pedidos.csproj|solutionrelative:pedidos\\formcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{0EB90BCA-B413-4784-AF9B-D99E76547286}|Pedidos\\Pedidos.csproj|c:\\users\\administrador\\documents\\github\\ds4\\pedidos\\pedidos\\pedidos\\forminventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0EB90BCA-B413-4784-AF9B-D99E76547286}|Pedidos\\Pedidos.csproj|solutionrelative:pedidos\\forminventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EB90BCA-B413-4784-AF9B-D99E76547286}|Pedidos\\Pedidos.csproj|c:\\users\\administrador\\documents\\github\\ds4\\pedidos\\pedidos\\pedidos\\formpedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0EB90BCA-B413-4784-AF9B-D99E76547286}|Pedidos\\Pedidos.csproj|solutionrelative:pedidos\\formpedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EB90BCA-B413-4784-AF9B-D99E76547286}|Pedidos\\Pedidos.csproj|c:\\users\\administrador\\documents\\github\\ds4\\pedidos\\pedidos\\pedidos\\formproduccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0EB90BCA-B413-4784-AF9B-D99E76547286}|Pedidos\\Pedidos.csproj|solutionrelative:pedidos\\formproduccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EB90BCA-B413-4784-AF9B-D99E76547286}|Pedidos\\Pedidos.csproj|c:\\users\\administrador\\documents\\github\\ds4\\pedidos\\pedidos\\pedidos\\formproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0EB90BCA-B413-4784-AF9B-D99E76547286}|Pedidos\\Pedidos.csproj|solutionrelative:pedidos\\formproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EB90BCA-B413-4784-AF9B-D99E76547286}|Pedidos\\Pedidos.csproj|c:\\users\\administrador\\documents\\github\\ds4\\pedidos\\pedidos\\pedidos\\formreceta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0EB90BCA-B413-4784-AF9B-D99E76547286}|Pedidos\\Pedidos.csproj|solutionrelative:pedidos\\formreceta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EB90BCA-B413-4784-AF9B-D99E76547286}|Pedidos\\Pedidos.csproj|c:\\users\\administrador\\documents\\github\\ds4\\pedidos\\pedidos\\pedidos\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0EB90BCA-B413-4784-AF9B-D99E76547286}|Pedidos\\Pedidos.csproj|solutionrelative:pedidos\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,22 +34,78 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "FormCliente.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\melan\\DS4\\Pedidos\\Pedidos\\Pedidos\\FormCliente.cs",
-              "RelativeDocumentMoniker": "Pedidos\\FormCliente.cs",
-              "ToolTip": "C:\\Users\\melan\\DS4\\Pedidos\\Pedidos\\Pedidos\\FormCliente.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Pedidos\\FormCliente.cs [Dise\u00F1o]",
+              "Title": "FormInventario.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Administrador\\Documents\\GitHub\\DS4\\Pedidos\\Pedidos\\Pedidos\\FormInventario.cs",
+              "RelativeDocumentMoniker": "Pedidos\\FormInventario.cs",
+              "ToolTip": "C:\\Users\\Administrador\\Documents\\GitHub\\DS4\\Pedidos\\Pedidos\\Pedidos\\FormInventario.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Pedidos\\FormInventario.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-28T22:10:47.292Z",
+              "WhenOpened": "2025-11-29T00:06:06.138Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormPedido.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Administrador\\Documents\\GitHub\\DS4\\Pedidos\\Pedidos\\Pedidos\\FormPedido.cs",
+              "RelativeDocumentMoniker": "Pedidos\\FormPedido.cs",
+              "ToolTip": "C:\\Users\\Administrador\\Documents\\GitHub\\DS4\\Pedidos\\Pedidos\\Pedidos\\FormPedido.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Pedidos\\FormPedido.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T00:05:54.907Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FormProduccion.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Administrador\\Documents\\GitHub\\DS4\\Pedidos\\Pedidos\\Pedidos\\FormProduccion.cs",
+              "RelativeDocumentMoniker": "Pedidos\\FormProduccion.cs",
+              "ToolTip": "C:\\Users\\Administrador\\Documents\\GitHub\\DS4\\Pedidos\\Pedidos\\Pedidos\\FormProduccion.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Pedidos\\FormProduccion.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T00:05:34.004Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FormProducto.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Administrador\\Documents\\GitHub\\DS4\\Pedidos\\Pedidos\\Pedidos\\FormProducto.cs",
+              "RelativeDocumentMoniker": "Pedidos\\FormProducto.cs",
+              "ToolTip": "C:\\Users\\Administrador\\Documents\\GitHub\\DS4\\Pedidos\\Pedidos\\Pedidos\\FormProducto.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Pedidos\\FormProducto.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T00:05:28.241Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FormReceta.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Administrador\\Documents\\GitHub\\DS4\\Pedidos\\Pedidos\\Pedidos\\FormReceta.cs",
+              "RelativeDocumentMoniker": "Pedidos\\FormReceta.cs",
+              "ToolTip": "C:\\Users\\Administrador\\Documents\\GitHub\\DS4\\Pedidos\\Pedidos\\Pedidos\\FormReceta.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Pedidos\\FormReceta.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T00:05:11.384Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FormLogin.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Administrador\\Documents\\GitHub\\DS4\\Pedidos\\Pedidos\\Pedidos\\FormLogin.cs",
+              "RelativeDocumentMoniker": "Pedidos\\FormLogin.cs",
+              "ToolTip": "C:\\Users\\Administrador\\Documents\\GitHub\\DS4\\Pedidos\\Pedidos\\Pedidos\\FormLogin.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Pedidos\\FormLogin.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-28T21:30:28.706Z",
               "EditorCaption": " [Dise\u00F1o]"
             }
           ]

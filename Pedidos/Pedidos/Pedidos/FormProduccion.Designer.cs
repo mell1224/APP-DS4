@@ -38,7 +38,10 @@
             this.lblTitProduccion = new System.Windows.Forms.Label();
             this.pbProducc = new System.Windows.Forms.PictureBox();
             this.plLote = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
             this.plInfoLote = new System.Windows.Forms.Panel();
+            this.lblUniDProd = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.plIngreStock = new System.Windows.Forms.Panel();
             this.lblIngreNec = new System.Windows.Forms.Label();
             this.dtgIngreNecDisp = new System.Windows.Forms.DataGridView();
@@ -60,9 +63,6 @@
             this.cmbSelecProd = new System.Windows.Forms.ComboBox();
             this.lblProdProducir = new System.Windows.Forms.Label();
             this.lblLoteProd = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.lblUniDProd = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.plProduccionTit.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbProducc)).BeginInit();
@@ -171,6 +171,16 @@
             this.plLote.Size = new System.Drawing.Size(711, 547);
             this.plLote.TabIndex = 11;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label1.Location = new System.Drawing.Point(131, 61);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(11, 13);
+            this.label1.TabIndex = 5;
+            this.label1.Text = "*";
+            // 
             // plInfoLote
             // 
             this.plInfoLote.Controls.Add(this.lblUniDProd);
@@ -187,6 +197,26 @@
             this.plInfoLote.Name = "plInfoLote";
             this.plInfoLote.Size = new System.Drawing.Size(646, 385);
             this.plInfoLote.TabIndex = 3;
+            // 
+            // lblUniDProd
+            // 
+            this.lblUniDProd.AutoSize = true;
+            this.lblUniDProd.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(125)))), ((int)(((byte)(4)))));
+            this.lblUniDProd.Location = new System.Drawing.Point(178, 151);
+            this.lblUniDProd.Name = "lblUniDProd";
+            this.lblUniDProd.Size = new System.Drawing.Size(59, 13);
+            this.lblUniDProd.TabIndex = 9;
+            this.lblUniDProd.Text = "0 unidades";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label2.Location = new System.Drawing.Point(118, 112);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(11, 13);
+            this.label2.TabIndex = 6;
+            this.label2.Text = "*";
             // 
             // plIngreStock
             // 
@@ -358,9 +388,9 @@
             // cmbSelecProd
             // 
             this.cmbSelecProd.FormattingEnabled = true;
-            this.cmbSelecProd.Location = new System.Drawing.Point(34, 94);
+            this.cmbSelecProd.Location = new System.Drawing.Point(37, 94);
             this.cmbSelecProd.Name = "cmbSelecProd";
-            this.cmbSelecProd.Size = new System.Drawing.Size(639, 21);
+            this.cmbSelecProd.Size = new System.Drawing.Size(626, 21);
             this.cmbSelecProd.TabIndex = 2;
             this.cmbSelecProd.Text = "-- Seleccionar Producto--";
             this.cmbSelecProd.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
@@ -382,36 +412,6 @@
             this.lblLoteProd.Size = new System.Drawing.Size(135, 13);
             this.lblLoteProd.TabIndex = 0;
             this.lblLoteProd.Text = "Nuevo Lote de Producción";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.label1.Location = new System.Drawing.Point(131, 61);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(11, 13);
-            this.label1.TabIndex = 5;
-            this.label1.Text = "*";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.label2.Location = new System.Drawing.Point(118, 112);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(11, 13);
-            this.label2.TabIndex = 6;
-            this.label2.Text = "*";
-            // 
-            // lblUniDProd
-            // 
-            this.lblUniDProd.AutoSize = true;
-            this.lblUniDProd.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(125)))), ((int)(((byte)(4)))));
-            this.lblUniDProd.Location = new System.Drawing.Point(178, 151);
-            this.lblUniDProd.Name = "lblUniDProd";
-            this.lblUniDProd.Size = new System.Drawing.Size(59, 13);
-            this.lblUniDProd.TabIndex = 9;
-            this.lblUniDProd.Text = "0 unidades";
             // 
             // FormProduccion
             // 

@@ -42,6 +42,8 @@
             this.lblProductoTit = new System.Windows.Forms.Label();
             this.lblSelProdTit = new System.Windows.Forms.Label();
             this.plIngredienteReceta = new System.Windows.Forms.Panel();
+            this.plAnuncioIngre = new System.Windows.Forms.Panel();
+            this.lblAnuncio = new System.Windows.Forms.Label();
             this.lblCantUni = new System.Windows.Forms.Label();
             this.nudCantUni = new System.Windows.Forms.NumericUpDown();
             this.btnAñadirReceta = new System.Windows.Forms.Button();
@@ -56,16 +58,14 @@
             this.lblProductReceta = new System.Windows.Forms.Label();
             this.lblRecetaPara = new System.Windows.Forms.Label();
             this.btnGuardarReceta = new System.Windows.Forms.Button();
-            this.plAnuncioIngre = new System.Windows.Forms.Panel();
-            this.lblAnuncio = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.plRecetasTit.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbChef)).BeginInit();
             this.plSeleccionProd.SuspendLayout();
             this.plIngredienteReceta.SuspendLayout();
+            this.plAnuncioIngre.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudCantUni)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dtgInfoReceta)).BeginInit();
-            this.plAnuncioIngre.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -160,9 +160,9 @@
             this.plSeleccionProd.Controls.Add(this.cmbSeleccionProd);
             this.plSeleccionProd.Controls.Add(this.lblProductoTit);
             this.plSeleccionProd.Controls.Add(this.lblSelProdTit);
-            this.plSeleccionProd.Location = new System.Drawing.Point(58, 190);
+            this.plSeleccionProd.Location = new System.Drawing.Point(64, 190);
             this.plSeleccionProd.Name = "plSeleccionProd";
-            this.plSeleccionProd.Size = new System.Drawing.Size(1082, 138);
+            this.plSeleccionProd.Size = new System.Drawing.Size(1076, 138);
             this.plSeleccionProd.TabIndex = 10;
             // 
             // cmbSeleccionProd
@@ -212,6 +212,26 @@
             this.plIngredienteReceta.Name = "plIngredienteReceta";
             this.plIngredienteReceta.Size = new System.Drawing.Size(1076, 346);
             this.plIngredienteReceta.TabIndex = 11;
+            // 
+            // plAnuncioIngre
+            // 
+            this.plAnuncioIngre.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(250)))), ((int)(((byte)(251)))));
+            this.plAnuncioIngre.Controls.Add(this.lblAnuncio);
+            this.plAnuncioIngre.Location = new System.Drawing.Point(27, 52);
+            this.plAnuncioIngre.Name = "plAnuncioIngre";
+            this.plAnuncioIngre.Size = new System.Drawing.Size(1028, 34);
+            this.plAnuncioIngre.TabIndex = 10;
+            // 
+            // lblAnuncio
+            // 
+            this.lblAnuncio.AutoSize = true;
+            this.lblAnuncio.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAnuncio.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(106)))), ((int)(((byte)(114)))), ((int)(((byte)(130)))));
+            this.lblAnuncio.Location = new System.Drawing.Point(363, 9);
+            this.lblAnuncio.Name = "lblAnuncio";
+            this.lblAnuncio.Size = new System.Drawing.Size(349, 15);
+            this.lblAnuncio.TabIndex = 0;
+            this.lblAnuncio.Text = "No hay ingredientes en esta receta. Agrega ingredientes abajo.";
             // 
             // lblCantUni
             // 
@@ -336,26 +356,6 @@
             this.btnGuardarReceta.Text = "💾 Guardar Receta Completa";
             this.btnGuardarReceta.UseVisualStyleBackColor = false;
             // 
-            // plAnuncioIngre
-            // 
-            this.plAnuncioIngre.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(250)))), ((int)(((byte)(251)))));
-            this.plAnuncioIngre.Controls.Add(this.lblAnuncio);
-            this.plAnuncioIngre.Location = new System.Drawing.Point(27, 52);
-            this.plAnuncioIngre.Name = "plAnuncioIngre";
-            this.plAnuncioIngre.Size = new System.Drawing.Size(1028, 34);
-            this.plAnuncioIngre.TabIndex = 10;
-            // 
-            // lblAnuncio
-            // 
-            this.lblAnuncio.AutoSize = true;
-            this.lblAnuncio.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAnuncio.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(106)))), ((int)(((byte)(114)))), ((int)(((byte)(130)))));
-            this.lblAnuncio.Location = new System.Drawing.Point(363, 9);
-            this.lblAnuncio.Name = "lblAnuncio";
-            this.lblAnuncio.Size = new System.Drawing.Size(349, 15);
-            this.lblAnuncio.TabIndex = 0;
-            this.lblAnuncio.Text = "No hay ingredientes en esta receta. Agrega ingredientes abajo.";
-            // 
             // FormReceta
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -378,10 +378,10 @@
             this.plSeleccionProd.PerformLayout();
             this.plIngredienteReceta.ResumeLayout(false);
             this.plIngredienteReceta.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.nudCantUni)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dtgInfoReceta)).EndInit();
             this.plAnuncioIngre.ResumeLayout(false);
             this.plAnuncioIngre.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nudCantUni)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dtgInfoReceta)).EndInit();
             this.ResumeLayout(false);
 
         }

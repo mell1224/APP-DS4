@@ -358,7 +358,7 @@
             // 
             // mcalFechaIngre
             // 
-            this.mcalFechaIngre.Location = new System.Drawing.Point(107, 306);
+            this.mcalFechaIngre.Location = new System.Drawing.Point(90, 306);
             this.mcalFechaIngre.Name = "mcalFechaIngre";
             this.mcalFechaIngre.TabIndex = 10;
             // 
@@ -498,7 +498,7 @@
             // 
             // mcalEditI
             // 
-            this.mcalEditI.Location = new System.Drawing.Point(107, 306);
+            this.mcalEditI.Location = new System.Drawing.Point(94, 306);
             this.mcalEditI.Name = "mcalEditI";
             this.mcalEditI.TabIndex = 10;
             // 
